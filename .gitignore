@@ -1,0 +1,33 @@
+# Python & Django
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+/backend/staticfiles/
+/backend/venv/
+.pytest_cache/
+
+# Node & Frontend
+node_modules/
+/frontend/dist/
+/frontend/node_modules/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment & Secrets
+.env
+.env.local
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
